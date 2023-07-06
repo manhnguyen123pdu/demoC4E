@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 10</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  
+    <hr />
+    <h3>Bài 8</h3>
+    <button onclick="hienThiDonhang();">Bài 8 (a)</button>
+    <div id="containerDH"></div>
+    <br /><hr />
+    <input type="text" id="showDH" value="DH" /><span>
+      <i>( nhập mã đơn hàng cần thay đổi - vd : DH001)</i></span
+    ><br /><input type="number" id="changeSL" /><span>
+      <i>( nhập số lượng mới)</i></span
+    ><br /><br />
+    <button onclick="chinhSuaDonHang();">Bài 8 (b)</button><br /><br />
+    <hr/><button onclick="tongGiaTriDonHang()">Bài 8 (c)</button>
+    <p id="sumDonHang"></p>
+    <hr/>
+    <button onclick="timSP()">Bài 8 (d)</button>
+    <input type="text" id="findDH" value="DH" /><span>
+      <i>( nhập mã đơn hàng cần tìm sản phẩm - vd : DH001)</i></span
+    >
+    <p id="showSP"></p>
+    <br /><br/><hr/>
+    <label for="">Mã đơn hàng : <input id="maDH" type="text" value="DH"></label><br/><br/>
+    <label for="">Tên sản phẩm : <input id="sanPham" type="text"></label><br/><br/>
+    <label for="">Số lượng : <input id="soLuong" type="number"></label><br/><br/>
+    <label for="">Giá sản phẩm : <input id="donGia" type="number"></label><br/><br/>
+    <button onclick="themDH()">Bài 8 (e)</button><hr/>
+    <p id ="test"></p>
+    <button onclick="danhSachSanPham()">Bài 8 (f)</button>
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
